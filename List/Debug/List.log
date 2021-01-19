@@ -1,0 +1,26 @@
+﻿  PlayListItem.cpp
+C:\Users\hrgeo\source\repos\List\List\PlayListItem.cpp(3,27): error C2653: 'PlayListItem': is not a class or namespace name
+C:\Users\hrgeo\source\repos\List\List\PlayListItem.cpp(3,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hrgeo\source\repos\List\List\PlayListItem.cpp(5,1): warning C4508: 'PlayListItem': function should return a value; 'void' return type assumed
+C:\Users\hrgeo\source\repos\List\List\PlayListItem.hpp(10,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\hrgeo\source\repos\List\List\PlayListItem.hpp(10,70): warning C4183: 'PlaylistItem': missing return type; assumed to be a member function returning 'int'
+  DoubleNode.cpp
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(9,23): error C2995: 'DoubleNode<ItemType>::DoubleNode(void)': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(6): message : see declaration of 'DoubleNode<ItemType>::DoubleNode'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(13,23): error C2995: 'DoubleNode<ItemType>::DoubleNode(const ItemType &)': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(7): message : see declaration of 'DoubleNode<ItemType>::DoubleNode'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(18,23): error C2995: 'DoubleNode<ItemType>::DoubleNode(const ItemType &,DoubleNode<ItemType> *,DoubleNode<ItemType> *)': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(8): message : see declaration of 'DoubleNode<ItemType>::DoubleNode'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(24,28): error C2995: 'void DoubleNode<ItemType>::setItem(const ItemType &)': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(9): message : see declaration of 'DoubleNode<ItemType>::setItem'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(29,28): error C2995: 'void DoubleNode<ItemType>::setNext(DoubleNode<ItemType> *)': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(10): message : see declaration of 'DoubleNode<ItemType>::setNext'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(34,28): error C2995: 'void DoubleNode<ItemType>::setPrevious(DoubleNode<ItemType> *)': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(11): message : see declaration of 'DoubleNode<ItemType>::setPrevious'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(39,33): error C2995: 'ItemType DoubleNode<ItemType>::getItem(void) const': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(12): message : see declaration of 'DoubleNode<ItemType>::getItem'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(44,45): error C2995: 'DoubleNode<ItemType> *DoubleNode<ItemType>::getNext(void) const': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(13): message : see declaration of 'DoubleNode<ItemType>::getNext'
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.cpp(49,45): error C2995: 'DoubleNode<ItemType> *DoubleNode<ItemType>::getPrevious(void) const': function template has already been defined
+C:\Users\hrgeo\source\repos\List\List\DoubleNode.hpp(14): message : see declaration of 'DoubleNode<ItemType>::getPrevious'
+  Generating Code...
